@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>User Notes with Authentication</title>
+</head>
+<body ng-app="userNotesApp">
+	<h1>User Notes</h1>
+	<div ng-view>
+	
+	<!-- Insert Partials --> 
+
+	</div>
+	<script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+	</script>
+	<script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/firebase/firebase.js"></script>
+
+	<script type="text/javascript" src="app/app.js"></script>
+	
+	<script type="text/javascript" src="./values/firebaseConfig.js"></script>
+	<script type="text/javascript" src="app/factory/factory.authorization.js"></script>
+	<script type="text/javascript" src="app/factory/factory.notes.js"></script>
+
+	<script type="text/javascript" src="app/controller/controller.login.js"></script>
+	<script type="text/javascript" src="app/controller/controller.newNote.js"></script>
+	<script type="text/javascript" src="app/controller/controller.noteList.js"></script>
+	<script type="text/javascript" src="app/controller/controller.register.js"></script>
+</body>
+</html>
